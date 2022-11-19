@@ -1,4 +1,4 @@
-package com.scumm.exchange;
+package com.scumm.contract;
 
 import org.web3j.abi.FunctionEncoder;
 import org.web3j.abi.FunctionReturnDecoder;
@@ -6,7 +6,6 @@ import org.web3j.abi.TypeReference;
 import org.web3j.abi.datatypes.*;
 import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.Credentials;
-import org.web3j.crypto.Hash;
 import org.web3j.ens.NameHash;
 import org.web3j.model.ENSRegistry;
 import org.web3j.protocol.Web3j;
@@ -18,7 +17,6 @@ import org.web3j.tx.gas.StaticGasProvider;
 import org.web3j.utils.Numeric;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
